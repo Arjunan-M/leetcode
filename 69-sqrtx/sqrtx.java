@@ -1,6 +1,6 @@
 class Solution {
     public int mySqrt(int x) {
-        int l=1,r=x;
+        int l=1,r=x/2;
         int mid=-1;
         if(x==1||x==0)
             return x;
